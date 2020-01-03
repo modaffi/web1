@@ -1,0 +1,40 @@
+scriptengine engin = new scriptengine("nashon");
+engin.eval();
+
+JSON.parse(''); :: 문자열 -> 문장
+JSON.stringify():: 문장 -> 문자열
+
+
+for(var i in ar) -> ar의 길이를 i로 설정
+
+<% %> (코드블록):: form action을 jsp가 들어간 url로 jsp파일에 작성
+
+out.print(y) == <%=y%>
+
+mvc model1 : jsp문서내 c,m,v 모두 표시
+mvc model2 : c를 서블릿으로 만들어 물리적 분리
+
+m =  출력데이터
+v = 출력코드 <%=>
+c = 입력, 제어코드 <%%>
+
+${a} = > <%=request.getattribute("a") %>
+
+Map<String,Object> map = new HashMap<>();
+map.put("키","값");
+
+
+
+el을 사용한 객체를 찾는 우선순위
+page->request->session->application
+
+
+
+pageContext 페이지내 저장/가져오기 가능<내장객체 :: 서블릿객체>
+
+
+
+${sessionScope.a} -> session으로 저장한 a 값 가져온다는 의미
+
+jdbc library ==> connection
+

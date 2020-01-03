@@ -1,0 +1,22 @@
+창의 모든 내용 변경 가능
+
+window
+window.location
+window.history
+window.document
+
+js -> document object -> window object
+
+
+
+<script>스크립트코드 : 출력이 아닌 실행코드
+
+var => 래퍼클래스로 var x = 3; 표현하면 var x = new Number(3)와 같음
+
+undefinded 값(문자아님)
+
+배열객체 array => 	push/pop:stack
+			index:list
+
+
+

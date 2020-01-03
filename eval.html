@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var data = [
+            {"co":0.6,"so2":0.06},
+            {"co":0.47,"so2":0.05}
+        ]
+
+        eval('var x = 30;');
+        console.log(x);
+
+        eval('var ar = data;');
+        alert(ar[0].co);
+
+
+        var data1 =JSON.parse('{"id":1,"title":"aaa"}');
+        console.log(data1.title);
+
+        var data2 ={id:2,a:"bbb"};
+        var json = JSON.stringify(data2);
+        alert(json);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

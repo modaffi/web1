@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var date = new Date();
+        var hour = date.getHours();
+
+        if(hour <12){
+            alert("오전입니다..!");
+        }
+        if(hour>=12){
+            alert("오후입니다..!");
+        }
+
+        if(hour<11){
+            alert('아침 먹을 시간입니다..!');
+        }else if(hour<15){
+            //hour<11 조건이 거짓이고 hour<15 조건이 참일 때 실행
+            alert('점심 먹을 시간입니다..!');
+        }else{
+            alert('저녁 먹을 시간입니다..!')
+        }
+
+        var score = Number(prompt('학점을 입력하세요.','학점'));
+
+        if(4.0< score && score <4.5){
+            alert('논리 연산자를 사용해 보았습니다..!')
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
